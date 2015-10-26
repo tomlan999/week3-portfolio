@@ -1,7 +1,10 @@
+/* Style the header */
+
 header {
   width: 30rem;
   padding: 3rem;
   border: 20px solid #58321d;
+  border-radius: 20px;
   margin: auto
 }
     
@@ -15,6 +18,8 @@ header h1 {
   color: #311FD1;
 }
     
+/* Style the intro paragraph */
+
 p.intro {
   text-align: center;
   font-size: 2rem;
@@ -23,9 +28,13 @@ p.intro {
   margin: auto
 }
 
+/* Center all h2 headings */
+
 h2 {
   text-align: center;
 }
+
+/* Style the portfolio sections */
 
 article.portfolio-entries {
   width: 45rem;
@@ -45,6 +54,7 @@ section p {
   font-size: 1.2rem;
 }
 
+/* Style link behavior */
 a:link {
   text-decoration: none;
 }
@@ -53,9 +63,13 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Style the footer */
+
 footer {
   text-align: center;
 }
+
+/* Style the About page */
 
 article.about {
   font-size: 1.2rem;

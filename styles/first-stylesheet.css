@@ -80,9 +80,26 @@ article.about {
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
+  background-color: azure;
 }
 
 ul.how {
   list-style-type: square;
 }
 
+/* Style the Bio page */
+article.bio {
+  font-size: 1.2rem;
+  width: 60rem;
+  padding: 1rem;
+  border: 3px solid black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: bisque;
+}
+
+article.bio img {
+  width: 300px;
+}

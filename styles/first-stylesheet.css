@@ -23,9 +23,13 @@ p.intro {
   margin: auto
 }
 
+h2 {
+  text-align: center;
+}
+
 article.portfolio-entries {
   width: 45rem;
-  padding: 3rem;
+  padding: 1rem;
   margin: auto;
 }
   
@@ -33,7 +37,7 @@ section {
   width: inherit;
   padding: inherit;
   border: 3px solid #58321d;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   background-color: beige;
 }
 
@@ -54,7 +58,7 @@ footer {
 }
 
 article.about {
-  text-align: center;
+  font-size: 1.2rem;
   width: 50rem;
   padding: 1rem;
   border: 3px solid #58321d;
@@ -62,5 +66,9 @@ article.about {
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+ul.how {
+  list-style-type: square;
 }
 

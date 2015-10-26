@@ -1,11 +1,66 @@
 header {
   width: 30rem;
   padding: 3rem;
-  border: 20px solid black;
+  border: 20px solid #58321d;
   margin: auto
 }
     
 header img {
   width: 30rem;
-  {
+}
+
     
+header h1 {
+  text-align: center;
+  color: #311FD1;
+}
+    
+p.intro {
+  text-align: center;
+  font-size: 2rem;
+  width: 50rem;
+  padding: 3rem;
+  margin: auto
+}
+
+article.portfolio-entries {
+  width: 45rem;
+  padding: 3rem;
+  margin: auto;
+}
+  
+section {
+  width: inherit;
+  padding: inherit;
+  border: 3px solid #58321d;
+  margin-bottom: 3rem;
+  background-color: beige;
+}
+
+section p {
+  font-size: 1.2rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+}
+
+article.about {
+  text-align: center;
+  width: 50rem;
+  padding: 1rem;
+  border: 3px solid #58321d;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
